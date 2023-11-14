@@ -22,7 +22,7 @@ jobs:
       PARENT_REPOSITORY: ${{ matrix.targets }}
       CHECKOUT_BRANCH: 'main'
       PR_AGAINST_BRANCH: 'main'
-      OWNER: 'SubModuleUpdater'
+      OWNER: 'orange-cloudavenue'
 
     steps:
       ##########################

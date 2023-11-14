@@ -15,6 +15,7 @@ jobs:
   build:
     name: Submodule update
     strategy:
+      matrix:
         targets: [FrangipaneTeam/terraform-plugin-framework-validators, FrangipaneTeam/terraform-plugin-framework-superschema, FrangipaneTeam/terraform-plugin-framework-supertypes, FrangipaneTeam/terraform-plugin-framework-planmodifiers]
     runs-on: ubuntu-latest
     env:

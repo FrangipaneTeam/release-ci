@@ -2,7 +2,7 @@ module github.com/orange-cloudavenue/terraform-provider-cloudavenue/.ci/tools
 
 go 1.20
 
-require github.com/hashicorp/go-changelog v0.0.0-20221013053416-ba40b3a8c7ff
+require github.com/hashicorp/go-changelog v0.0.0-20230630083008-522d403eacf1
 
 require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect

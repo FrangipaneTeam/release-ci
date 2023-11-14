@@ -7,7 +7,10 @@ name: Submodule Updates
 on:
   push:
     branches: [main]
-
+    paths:
+      - 'scripts/**'
+      - 'tools/**'
+      
 ###############
 # Set the Job #
 ###############

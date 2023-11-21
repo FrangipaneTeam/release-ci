@@ -19,7 +19,7 @@ jobs:
     name: Submodule update
     strategy:
       matrix:
-        targets: [orange-cloudavenue/terraform-provider-cloudavenue, orange-cloudavenue/cloudavenue-sdk-go]
+        targets: [orange-cloudavenue/terraform-provider-cloudavenue, orange-cloudavenue/cloudavenue-sdk-go, orange-cloudavenue/cloudavenue-cli]
     runs-on: ubuntu-latest
     env:
       PARENT_REPOSITORY: ${{ matrix.targets }}
